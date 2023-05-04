@@ -1,1 +1,31 @@
 /* ваш код */
+
+.film-preview{
+   
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 30px;
+    
+    
+
+}
+
+
+.green{
+    background-color: rgb(59,179,58);
+}
+.red{
+    background-color: rgb(255, 0, 0);
+}
+.green, .red{
+    position: absolute;
+    top: 45px;
+    left: 29px;
+    width: 70px;
+    height: 65px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
