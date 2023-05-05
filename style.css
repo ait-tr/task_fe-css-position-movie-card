@@ -1,1 +1,17 @@
-/* ваш код */
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img1 {
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img2 {
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+}
