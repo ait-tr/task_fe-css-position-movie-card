@@ -1,13 +1,41 @@
 .container{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .img1 {
+    position: relative;
     margin: 20px;
     width: fit-content;
     height: fit-content;
+}
+
+.grade{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bolder;
+    top: 50px;
+    left: 50px;
+    width: 120px;
+    height: 100px;
+    background-color:rgb(59, 179, 58);
+    color: antiquewhite;    
+}
+
+.tickets{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 60px;
+    font-weight: bolder;
+    right: 50px;
+    bottom: 50px;
+    width: 300px;
+    height: 80px;
+    background-color:rgb(255, 86, 0);
+    color: antiquewhite; 
 }
 
 .img2 {
