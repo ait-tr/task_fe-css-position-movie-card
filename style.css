@@ -39,7 +39,22 @@
 }
 
 .img2 {
+    position: relative;
     margin: 20px;
     width: fit-content;
     height: fit-content;
+}
+
+.grade2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bolder;
+    top: 50px;
+    left: 50px;
+    width: 120px;
+    height: 100px;
+    background-color:rgb(255, 0, 0);
+    color: antiquewhite;    
 }
