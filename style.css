@@ -1,36 +1,71 @@
-.first{
+.first {
     width: fit-content;
     height: fit-content;
     margin: 15px;
+    position: static;
+  
 }
 
-.second{
+.second {
     width: fit-content;
     height: fit-content;
     margin: 15px;
+    position: static;
+
 }
 
-.img{
+.img {
     width: 40%;
 }
-.markOne
-{
+
+.markOne {
     font-size: 125%;
-    background-color:rgb(59,179,58);
+    background-color: rgb(59, 179, 58);
     width: fit-content;
     color: white;
     padding: 5px;
     position: absolute;
     margin: 10px;
+    border-radius: 5px;
+    font-style: oblique;
 }
-.markSecond
-{
+
+.markSecond {
     font-size: 125%;
-    background-color: rgb(255,0,0);
+    background-color: rgb(255, 0, 0);
     width: fit-content;
+    height: fit-content;
     color: white;
     padding: 5px;
     margin: 10px;
     position: absolute;
-    
+    border-radius: 5px;
+
+}
+
+.ticketOne {
+    background-color: rgb(255, 86, 0);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    padding: 3px;
+    font-size: large;
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    left: 27%;
+
+}
+
+.ticketSecond {
+    background-color: rgb(255, 86, 0);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: large;
+    position: absolute;
+    top: 118%;
+    left: 27%;
 }
