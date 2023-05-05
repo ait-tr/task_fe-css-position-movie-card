@@ -7,12 +7,12 @@
 
 .rate {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 40px;
+    left: 30px;
     padding: 10px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 280%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
     text-align: center;
     text-justify: distribute;
 
@@ -24,6 +24,17 @@
 
 .low {
     background-color: rgb(255, 0, 0);
+}
+
+.tickets {
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+    background-color: rgb(255, 86, 0);
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 280%;
 }
 
 /* ваш код */
