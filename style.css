@@ -1,1 +1,35 @@
-/* ваш код */
+.card {
+    position: relative;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 900px;
+    }
+
+.card-top {
+    background-image: url(./movie1.webp);
+}
+
+.card-bottom {
+    background-image: url(./movie2.webp);
+}
+
+.card .assesment {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.card-top .assesment {
+    background-color: rgb(59,179,58);
+}
+
+.card-bottom .assesment {
+    background-color: rgb(255,0,0);
+}
