@@ -1,1 +1,29 @@
+.film-card {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 90px 60px;
+}
+
+.rate {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 280%;
+    text-align: center;
+    text-justify: distribute;
+
+}
+
+.high {
+    background-color: rgb(59, 179, 58);
+}
+
+.low {
+    background-color: rgb(255, 0, 0);
+}
+
 /* ваш код */
