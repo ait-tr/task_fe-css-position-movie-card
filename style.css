@@ -9,15 +9,15 @@ body {
 }
 
 .poster {
-    width: 240px;
+    width: 280px;
 }
 
 .rating {
     position: absolute;
     top: 20px;
     left: 10px;
-    color: bisque;
-    padding: 5px;
+    color: rgb(223, 209, 192);
+    padding: 7px;
 }
 
 .green {
@@ -30,4 +30,9 @@ body {
 
 .tickets {
     background-color: rgb(255,86,0);
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    color: rgb(223, 209, 192);
+    padding: 5PX;
 }
